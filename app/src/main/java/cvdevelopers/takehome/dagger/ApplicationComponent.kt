@@ -1,8 +1,7 @@
 package cvdevelopers.takehome.dagger
 
-import android.app.Application
 import cvdevelopers.takehome.MainActivity
-import cvdevelopers.githubstalker.ui.fragments.UserListFragment
+import cvdevelopers.takehome.LuminaryTakeHomeApplication
 import dagger.Component
 import javax.inject.Singleton
 
@@ -12,7 +11,6 @@ import javax.inject.Singleton
 @Singleton
 @Component(modules = arrayOf(ApplicationModule::class, NetworkClientModule::class))
 interface ApplicationComponent {
-    fun inject(app: Application)
+    fun inject(app: LuminaryTakeHomeApplication)
     fun inject(target: MainActivity)
-    fun inject(target: UserListFragment)
 }
