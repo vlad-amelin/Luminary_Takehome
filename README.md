@@ -16,6 +16,7 @@ You are expected to use the following libraries
 * Dagger2
 * Picasso
 * Room
+* MVVM/ MVP Architecture pattern
 
 You are encouraged to use other libraries that you consider necessary.
 
@@ -25,4 +26,5 @@ You are encouraged to use other libraries that you consider necessary.
 * If the user pulls the recycler view, the cache will be cleared and the system will hit the endpoint to get new data
 * Write unit test for any business logic that is written
 * Improve on the existing code
+* Might be overkill for such simple requirements but show off your over-engineering skills and preferred architecture patterns   
 
