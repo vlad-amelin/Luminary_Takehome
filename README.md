@@ -8,6 +8,7 @@ The requirements for the application are the following:
 * The Display should consist of the user display image as a circle followed by the users first and last name.
 * If the app is force closed, upon open, the recycler view loads the data from the Database cache.
 * If the user pulls the recycler view, the cache will be cleared and the system will hit the endpoint to get new data.
+* If the device is rotated, the list is displayed in landscape mode and no new calls to fetch data are made. 
 
 This project contains basic scaffolding. Consider this project a showcase of your engineering expertise.
 
