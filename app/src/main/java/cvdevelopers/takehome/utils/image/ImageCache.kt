@@ -13,7 +13,7 @@ class ImageCache : Cache {
                 .forEach { cacheMap.remove(it) }
     }
 
-    private val cacheMap = LinkedHashMap<String, Bitmap>()
+    val cacheMap = LinkedHashMap<String, Bitmap>()
 
     override fun get(stringResource: String): Bitmap? {
         return cacheMap[stringResource]
